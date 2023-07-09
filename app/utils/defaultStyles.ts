@@ -49,4 +49,17 @@ export const common = StyleSheet.create({
   flex: {
     flex: 1,
   },
+  flexCenter: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});
+
+export const LogoTitleStyles = StyleSheet.create({
+  default: {
+    fontFamily: FONT_TYPES.Logo_Font,
+    fontSize: fp(48),
+    color: colors.primary,
+  },
 });

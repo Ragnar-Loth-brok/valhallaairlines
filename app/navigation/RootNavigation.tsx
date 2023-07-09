@@ -13,6 +13,9 @@ export default function RootNavigation(): JSX.Element {
       initialRouteName="Splash"
       screenOptions={{
         headerShown: false,
+        cardStyle: {
+          backgroundColor: 'transparent',
+        },
         ...TransitionPresets.SlideFromRightIOS,
       }}>
       <Stack.Screen
